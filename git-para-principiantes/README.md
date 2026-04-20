@@ -1,2 +1,28 @@
 # Laboratorio llamado: Git Para Principiantes
 Empezado 20/04/2026
+
+## Lección 1: Tu Primer Laboratorio GIT
+
+  Aprendido:
+  Resumen
+  ¡Felicidades, viajero del tiempo! Acabas de completar tu primera aventura con Git. Repasemos las cosas increíbles que has aprendido:
+  
+    1. Cómo crear un repositorio Git (tu máquina del tiempo) usando git init.
+    2. Cómo comprobar el estado de tu repositorio con git status.
+    3. Cómo crear archivos y prepararlos para un commit usando git add.
+    4. Cómo crear un commit (un punto de guardado en el tiempo) con git commit.
+    5. Cómo ver el historial de tu proyecto usando git log.
+    
+  Tal vez te preguntes: "¿Por qué tomarse tantas molestias solo para guardar archivos?". ¡Excelente pregunta! He aquí por qué Git es tan poderoso:
+  
+    1. Historial detallado: Con Git, tienes un historial completo de tu proyecto. Puedes ver qué cambió, cuándo cambió y por qué.
+    2. Experimentación: Git te permite experimentar libremente. Puedes crear diferentes versiones de tu proyecto sin miedo a perder tu trabajo original.
+    3. Colaboración: Al trabajar en equipo, Git facilita ver quién hizo qué cambios y por qué.
+    4. Copia de seguridad: Cada repositorio de Git es una copia de seguridad completa de tu proyecto, incluyendo todo su historial.
+    
+  Estos son los pilares fundamentales que los desarrolladores utilizan cada día para crear software asombroso. A medida que continúes tu camino, te basarás en estos conceptos básicos para gestionar proyectos más complejos    y colaborar con otros.
+  
+  Recuerda, todo el mundo empieza como principiante. Incluso los desarrolladores más experimentados estuvieron alguna vez donde tú estás ahora. ¡Sigue practicando, sigue experimentando y, lo más importante, diviértete!
+  Si quieres aprender más sobre LabEx y cómo usarlo, puedes visitar nuestro Centro de Soporte. O puedes ver este vídeo para conocer más sobre LabEx.
+  Tu viaje en el mundo de la programación y el control de versiones no ha hecho más que empezar. El Siguiente Laboratorio está a solo un clic de distancia. ¡Sigamos explorando y haciendo crecer tus habilidades! ¿Quién sabe   qué proyectos increíbles crearás con tus nuevos superpoderes de Git?
+
