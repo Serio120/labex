@@ -20,9 +20,51 @@ Empezado 20/04/2026
     3. Colaboración: Al trabajar en equipo, Git facilita ver quién hizo qué cambios y por qué.
     4. Copia de seguridad: Cada repositorio de Git es una copia de seguridad completa de tu proyecto, incluyendo todo su historial.
     
-  Estos son los pilares fundamentales que los desarrolladores utilizan cada día para crear software asombroso. A medida que continúes tu camino, te basarás en estos conceptos básicos para gestionar proyectos más complejos    y colaborar con otros.
+  Estos son los pilares fundamentales que los desarrolladores utilizan cada día para crear software asombroso. A medida que continúes tu camino, te basarás en estos conceptos básicos para gestionar proyectos más     complejos y colaborar con otros.
   
   Recuerda, todo el mundo empieza como principiante. Incluso los desarrolladores más experimentados estuvieron alguna vez donde tú estás ahora. ¡Sigue practicando, sigue experimentando y, lo más importante, diviértete!
   Si quieres aprender más sobre LabEx y cómo usarlo, puedes visitar nuestro Centro de Soporte. O puedes ver este vídeo para conocer más sobre LabEx.
-  Tu viaje en el mundo de la programación y el control de versiones no ha hecho más que empezar. El Siguiente Laboratorio está a solo un clic de distancia. ¡Sigamos explorando y haciendo crecer tus habilidades! ¿Quién sabe   qué proyectos increíbles crearás con tus nuevos superpoderes de Git?
+  Tu viaje en el mundo de la programación y el control de versiones no ha hecho más que empezar. El Siguiente Laboratorio está a solo un clic de distancia. ¡Sigamos explorando y haciendo crecer tus habilidades! ¿Quién     sabe qué proyectos increíbles crearás con tus nuevos superpoderes de Git?
 
+
+## Lección 2: Tu Primer Laboratorio GIT
+
+Initializing and Committing to Your Secret Repository Tasks
+Create a new directory called quantum-leap in the ~/project folder.
+
+```bash
+mkdir quantum-lead
+```
+
+Initialize a new Git repository in the quantum-leap directory.
+
+```bash
+cd quantum-lead
+git init
+```
+Create a file named classified.txt with the content "The flux capacitor requires 1.21 gigawatts of power."
+
+```bash
+echo "The flux capacitor requires 1.21 gigawatts of power." > classified.txt
+```
+Stage the classified.txt file for commit.
+
+```bash
+git add .
+```
+Commit the staged file with the message "Add top-secret flux capacitor information".
+
+```bash
+git commit -m "Add top-secret flux capacitor information"
+```
+Requirements
+All operations must be performed in the ~/project/quantum-leap directory.
+Use Git commands to complete the tasks.
+The commit message must be exactly "Add top-secret flux capacitor information".
+Example
+After completing the challenge, running git log should show output similar to this:
+
+```bash
+git log
+#q >> EXIT
+```
