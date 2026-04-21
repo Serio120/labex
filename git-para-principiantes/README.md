@@ -26,6 +26,7 @@ Empezado 20/04/2026
   Si quieres aprender más sobre LabEx y cómo usarlo, puedes visitar nuestro Centro de Soporte. O puedes ver este vídeo para conocer más sobre LabEx.
   Tu viaje en el mundo de la programación y el control de versiones no ha hecho más que empezar. El Siguiente Laboratorio está a solo un clic de distancia. ¡Sigamos explorando y haciendo crecer tus habilidades! ¿Quién     sabe qué proyectos increíbles crearás con tus nuevos superpoderes de Git?
 
+21/04/2026
 
 ## Lección 2: Tu Primer Laboratorio GIT
 
