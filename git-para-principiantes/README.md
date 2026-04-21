@@ -28,7 +28,7 @@ Empezado 20/04/2026
 
 21/04/2026
 
-## Lección 2: Tu Primer Laboratorio GIT
+## Lección 2: Operación Salto Cuántico
 
 Initializing and Committing to Your Secret Repository Tasks
 Create a new directory called quantum-leap in the ~/project folder.
