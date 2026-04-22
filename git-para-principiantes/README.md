@@ -72,6 +72,8 @@ git log
 
 22/04/2026 
 
+## Lección 3: Gestión de la configuración de GIT
+
 (ESTA LECCION LA TIENES QUE REPASAR)
 
 ```bash
@@ -98,6 +100,13 @@ git log
 
     22  git config --global alias.st status
     23  git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+    24  git config --global alias.st\ngit config --global alias.lg
+
+    26  cd ~/project/git-config-lab
+    27  git config user.name "Lab User"
+    28  git config user.name
+    29  git config --global user.name
+
 
 
 ```
