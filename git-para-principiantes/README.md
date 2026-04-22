@@ -69,3 +69,40 @@ After completing the challenge, running git log should show output similar to th
 git log
 #q >> EXIT
 ```
+
+22/04/2026 
+
+(ESTA LECCION LA TIENES QUE REPASAR)
+
+```bash
+    1  cd ~/project   # Pulsar ~ [ Alt Gr + 4 + espacio ]
+    2  mkdir git-config-lab
+    3  cd git-config-lab
+    4  git init
+    5  git config --list
+    6  git config user.name
+
+    9   git config --global user.name "MiNombre"
+    10  git config --global user.email "minombre@example.com"
+    11  git config --global user.name \n git config --global user.email
+
+
+    13  git config --global color.ui auto
+    14  git config --global color.ui
+    15  git config --global core.editor nano
+    16  git config --global core.editor
+
+
+    18  git config --global core.autocrlf input
+    19  git config --global core.autocrlf
+
+    22  git config --global alias.st status
+    23  git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+
+```
+
+
+
+
+
