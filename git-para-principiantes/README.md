@@ -69,7 +69,6 @@ After completing the challenge, running git log should show output similar to th
 git log
 #q >> EXIT
 ```
-
 22/04/2026 
 
 ## Lección 3: Gestión de la configuración de GIT
@@ -107,6 +106,7 @@ git log
     28  git config user.name
     29  git config --global user.name
 ```
+23/04/2026 
 
 ## Lección 4: Configuración de Identidad en la Máquina del Tiempo
 
