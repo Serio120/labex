@@ -106,10 +106,25 @@ git log
     27  git config user.name "Lab User"
     28  git config user.name
     29  git config --global user.name
-
-
-
 ```
+
+## Lección 4: Configuración de Identidad en la Máquina del Tiempo
+
+(ESTA LECCION LA TIENES QUE DETALLAR)
+
+```bash
+    2  mkdir chrono-lab
+    3  git config --global user.name "Chrononaut Alice"
+    4  git config --global user.email "alice@timestream.com"
+    5  git config --list
+
+    7  cd chrono-lab
+    8  git status
+    9  git init
+   10  git config user.name "Temporal Agent Bob"
+   11  git config --list
+   12  git config --local --list
+   13  git config --global --list
 
 
 
