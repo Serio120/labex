@@ -125,8 +125,68 @@ git log
    11  git config --list
    12  git config --local --list
    13  git config --global --list
+```
 
 
+23/04/2026 
 
+## Lección 5: Trabajando con Archivos y el Área de Preparación
 
+(EN ESTA LECCION HAY COSAS NUEVAS)
+
+```bash
+
+    1  cd ~/project
+    2  mkdir git-staging-lab
+    3  cd git-staging-lab
+    4  git init
+    5  echo "print('Hello, Git!')" > hello.py
+
+    8  git add hello.py
+    9  git status
+
+   11  echo "*.log" > .gitignore
+   12  echo "This is a log file" > debug.log
+   13  git status
+   14  git add .gitignore\ngit commit -m "Initial commit with hello.py and .gitignore"
+   #   git add .gitignore
+   #   git commit -m "Initial commit with hello.py and .gitignore"
+
+   18  echo "print('Hello, Git! Welcome to the staging area.')" > hello.py
+   19  git diff
+
+   22  git add hello.py
+   23  git restore --staged hello.py # Aquí esta otra novedad
+   24  git status
+
+```
+#### Resumen
+
+¡Felicidades, explorador de Git! Acabas de subir de nivel tus habilidades de control de versiones. Recapitulemos lo que has aprendido en este laboratorio:
+
+Cómo añadir archivos al área de preparación usando `git add.`
+Cómo ignorar archivos que no deseas rastrear mediante `.gitignore`.
+Cómo visualizar los cambios en tus archivos antes de confirmarlos con `git diff`.
+Cómo deshacer la preparación de los cambios usando `git restore --staged`.
+Estas habilidades te brindan mucho más control sobre tu flujo de trabajo en Git.
+
+El área de preparación, en particular, es una característica poderosa que te permite elaborar confirmaciones más significativas al seleccionar cuidadosamente qué cambios incluir.
+
+**He aquí por qué estas habilidades son tan importantes:**
+
+*Confirmaciones Selectivas:*
+ El área de preparación te permite confirmar solo una parte de tus cambios, ayudándote a crear commits más pequeños y enfocados.
+
+*Ignorar Archivos:*
+ `.gitignore` ayuda a mantener tu repositorio limpio al excluir archivos que no necesitan control de versiones.
+
+*Revisión de Cambios:*
+ `git diff` te permite verificar tus cambios antes de confirmarlos, ayudándote a detectar errores a tiempo.
+
+*Flexibilidad:*
+ La capacidad de deshacer la preparación de los cambios te da la libertad de cambiar de opinión, haciendo que Git sea mucho menos intimidante.
+
+A medida que continúes tu viaje con Git, descubrirás que estas habilidades son invaluables. Forman la base de un flujo de trabajo avanzado, permitiéndote gestionar proyectos complejos con facilidad.
+
+Recuerda que dominar Git requiere práctica. No temas experimentar y cometer errores; ¡así es como aprendemos! Sigue explorando, sigue confirmando cambios y observa cómo evolucionan tus proyectos con el tiempo.
 
