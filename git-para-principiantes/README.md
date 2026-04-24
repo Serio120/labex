@@ -165,9 +165,13 @@ git log
 ¡Felicidades, explorador de Git! Acabas de subir de nivel tus habilidades de control de versiones. Recapitulemos lo que has aprendido en este laboratorio:
 
 Cómo añadir archivos al área de preparación usando `git add.`
+
 Cómo ignorar archivos que no deseas rastrear mediante `.gitignore`.
+
 Cómo visualizar los cambios en tus archivos antes de confirmarlos con `git diff`.
+
 Cómo deshacer la preparación de los cambios usando `git restore --staged`.
+
 Estas habilidades te brindan mucho más control sobre tu flujo de trabajo en Git.
 
 El área de preparación, en particular, es una característica poderosa que te permite elaborar confirmaciones más significativas al seleccionar cuidadosamente qué cambios incluir.
