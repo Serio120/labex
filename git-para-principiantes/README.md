@@ -127,7 +127,6 @@ git log
    13  git config --global --list
 ```
 
-
 23/04/2026 
 
 ## Lección 5: Trabajando con Archivos y el Área de Preparación
@@ -194,3 +193,30 @@ A medida que continúes tu viaje con Git, descubrirás que estas habilidades son
 
 Recuerda que dominar Git requiere práctica. No temas experimentar y cometer errores; ¡así es como aprendemos! Sigue explorando, sigue confirmando cambios y observa cómo evolucionan tus proyectos con el tiempo.
 
+---
+
+26/04/2026  ---> NECESARIO OTRO INTENTO
+
+## Lección 6: La Maleta del Viajero del Tiempo
+
+```bash
+
+    1  cd ~/project\n
+    2  mkdir time-travel-pack
+    3  cd time-travel-pack
+    4  echo "print('Initializing Chrono-Gadget...')" >> crono_gadget.py
+    5  echo "print('Warning: Temporal flux detected!')" >> "crono_gadget.py"
+    6  echo "print('Calibrating time circuits...')" >> "crono_gadget.py"
+    7  echo "print('Ready for time travel!')" >> "crono_gadget.py"
+    8  cat crono_gadget.py
+    9  git init
+   10  git add crono_gadget.py
+# Aquí termina el primer ejercicio, bueno falta el git diff --staged
+
+
+# Esto de aquí parece que te sobra
+   11  git commit -m "File in Staging Area to Local Repository"
+   12  git status
+   13  git diff --staged
+
+```
