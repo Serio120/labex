@@ -222,3 +222,19 @@ Recuerda que dominar Git requiere práctica. No temas experimentar y cometer err
    13  git diff --staged
 
 ```
+##### Añadimos una explicación Aclaratoria
+
+```markdown
+## Git Diff
+
+`git diff` compara el **working tree** con el **staging area** (cambios sin `add`).
+`git diff --staged` compara el **staging area** con el **último commit** (cambios listos para commit).
+
+```
+[Último commit] → [Staging area] → [Working tree]
+                ↑                 ↑
+        git diff --staged      git diff
+```
+
+Para ver todos los cambios a la vez: `git diff HEAD`
+```
