@@ -204,6 +204,7 @@ Recuerda que dominar Git requiere práctica. No temas experimentar y cometer err
     1  cd ~/project\n
     2  mkdir time-travel-pack
     3  cd time-travel-pack
+    # ERROR el archivo python no se llama crono_gadget, sa llama chrono_gadget
     4  echo "print('Initializing Chrono-Gadget...')" >> crono_gadget.py
     5  echo "print('Warning: Temporal flux detected!')" >> "crono_gadget.py"
     6  echo "print('Calibrating time circuits...')" >> "crono_gadget.py"
@@ -213,6 +214,7 @@ Recuerda que dominar Git requiere práctica. No temas experimentar y cometer err
    10  git add crono_gadget.py
 # Aquí termina el primer ejercicio, bueno falta el git diff --staged
 
+# SOLUCION mv crono_gadget.py chrono_gadget.py (Cambio de nombre del archivo )
 
 # Esto de aquí parece que te sobra
    11  git commit -m "File in Staging Area to Local Repository"
