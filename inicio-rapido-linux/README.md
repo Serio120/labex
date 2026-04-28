@@ -6,10 +6,10 @@ Empezado 25/04/2026
 ```bash
 
     1  echo "Hello LabEx"
-    2  whoami
-    3  id
+    2  whoami # solo usuario
+    3  id  # usuario, grupo, ....
     4  id root
-    5  id -un
+    5  id -un # solo usuario
 
 ```
 Resumen
