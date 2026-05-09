@@ -137,4 +137,4 @@ Ejecutar tu primer contenedor usando la imagen hello-world.
 Ver y entender las imágenes de Docker en tu sistema.
 Navegar por Docker Hub para encontrar e informarte sobre las imágenes.
 
-<h2 align=center>********* POR MAQUETAR *********</h2>
+<h2 align=center>********* POR MAQUETAR *********</h2>    
