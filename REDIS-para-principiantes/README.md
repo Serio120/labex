@@ -46,9 +46,7 @@ Deberías ver un prompt que se ve así:
 ```
 Esto indica que ahora estás conectado al servidor Redis y puedes comenzar a ejecutar comandos. Mantén esta conexión abierta para el siguiente paso.
 
----
 <h2 align=center>********* POR MAQUETAR Y COMPLETAR *********</h2>
----
 
 ### Resumen
 
