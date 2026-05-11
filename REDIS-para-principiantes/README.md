@@ -1,4 +1,28 @@
-# Laboratorio llamado: Git Para Principiantes
-Empezado 20/04/2026
+# Laboratorio llamado: Redis para principiantes
+Empezado 11/05/2026
 
-## Lección 1: Tu Primer Laboratorio GIT
+## Lección 1: Instalación y configuración inicial de Redis
+
+Instalar Redis y conectar al servidor.
+
+En este paso, instalaremos Redis en la máquina virtual de LabEx y nos conectaremos al servidor Redis utilizando la herramienta de línea de comandos `redis-cli`. Redis es un almacén de estructuras de datos en memoria de código abierto, utilizado frecuentemente como base de datos, caché y agente de mensajes.
+
+Primero, actualicemos las listas de paquetes para asegurarnos de tener las versiones más recientes del software. Abre una terminal en la máquina virtual de LabEx.
+
+Ejecuta el siguiente comando:
+
+```bash
+sudo apt update
+```
+
+```
+# Este comando actualiza la lista de paquetes disponibles. Deberías ver una salida que indica que las listas de paquetes se están actualizando
+```
+
+A continuación, instala Redis utilizando el comando `apt install`:
+
+```bash
+sudo apt install redis-server
+```
+
+Una vez completada la instalación, inicia el servidor Redis:
