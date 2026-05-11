@@ -45,3 +45,11 @@ Deberías ver un prompt que se ve así:
 127.0.0.1:6379>
 ```
 Esto indica que ahora estás conectado al servidor Redis y puedes comenzar a ejecutar comandos. Mantén esta conexión abierta para el siguiente paso.
+
+---
+
+---
+
+### Resumen
+
+En este laboratorio, has aprendido a instalar y realizar la configuración inicial de Redis en una máquina virtual de LabEx. Comenzaste actualizando las listas de paquetes e instalando el servidor Redis. Luego, te conectaste al servidor mediante la herramienta de línea de comandos `redis-cli`, probaste la conexión con el comando `PING`, estableciste un par clave-valor con el comando `SET` y recuperaste el valor de una clave usando el comando `GET`. Recuerda salir de `redis-cli` después de cada paso para asegurar que tus comandos queden registrados.
