@@ -41,8 +41,6 @@ Comencemos por entender nuestra ubicación actual:
 pwd
 ```
 
-
-
  Explicar Código
 pwd significa "print working directory" (imprimir directorio de trabajo). Muestra tu ubicación actual en el sistema de archivos. Este comando es crucial para orientarte dentro de la estructura de archivos de Linux. Deberías ver /home/labex/project como resultado.
 
@@ -73,6 +71,58 @@ Este comando enumera el contenido de tu directorio personal, que puede ser difer
 
 Comprender la distinción entre tu directorio de trabajo actual y tu directorio personal es importante para navegar por el sistema de archivos de Linux de manera efectiva.
 
+```bash
+    1  pwd #(Imprimir Directorio de Trabajo)
+    2  echo ~ (Este comando mostrará la ruta a tu directorio personal)
+    3  ls (Este comando enumera el contenido de tu directorio de trabajo actual.)
+    4  ls ~ (Este comando enumera el contenido de tu directorio personal, que puede ser diferente de tu directorio de trabajo actual.)
+```
 
+
+
+labex:project/ $ history
+    2  ~
+    5  echo ~
+    8  ls ~
+   10  pwd
+   11  ls
+   12  cd ..
+   13  cd project
+   14  cd ~
+   15  cd /home/labex/project
+
+
+### Creación de Archivos y Listado de Contenidos
+
+ 2  ~
+    5  echo ~
+    8  ls ~
+   10  pwd
+   12  cd ..
+   13  cd project
+   14  cd ~
+   17  Aclear
+   18  clear
+   19  cd /home/labex/project
+   20  touch file1.txt
+   22  echo "Hello, Linux" > file2.txt
+   23  echo "Hidden file" > .hiddenfile
+   24  mkdir testdir
+   26  ls -l
+   27  ls -a
+   28  ls -la
+   29  ls -l testdir
+   30  ls
+
+### -------------
+
+cp file1.txt file1_copy.txt
+   35  cp file2.txt testdir/
+   36  cp -r testdir testdir_copy
+   37  ls
+   38  ls testdir
+   39  ls testdir_copy
+
+### Mover y Renombrar Archivos y Directorios
 
 
