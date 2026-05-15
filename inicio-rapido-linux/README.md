@@ -22,10 +22,9 @@ Usar comandos básicos: `echo`, `whoami`, `id`.
 
 Extraer un detalle de identidad específico con `id -un`.
 
-Empezado 25/04/2026
-
 ## Lección 2:  Operaciones Básicas con archivos
 
+Empezado 25/04/2026
 
 ### Introducción
 ¡Bienvenido al laboratorio de Operaciones Básicas con Archivos en Linux! En Linux, casi todo se trata como un archivo, lo que convierte a las operaciones de archivos en algo fundamental para usar el sistema. Esta práctica te guiará a través de los comandos más comunes para administrar archivos y directorios, ayudándote a ser más hábil al navegar y organizar tu sistema Linux.
