@@ -1,6 +1,8 @@
+# Laboratorio llamado: CIBERSEGURIDAD
+Empezado 18/05/2026
 
-Kali Linux para Principiantes
-Empezadao 18
+## Lección 1: Kali Linux para Principiantes
+
 <h2 align=center>********* POR MAQUETAR Y COMPLETAR *********</h2>
 
 ```bash
