@@ -14,6 +14,9 @@ Empezado 18/05/2026
     7  docker exec -it kali-container /bin/bash
 ```
 
+20/05/2026
+
+## Lección 2: Verificar la versión de Kali Linux
 
 ### Introducción
 
