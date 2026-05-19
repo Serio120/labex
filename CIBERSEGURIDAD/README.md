@@ -24,11 +24,6 @@ En este desafío, tendrás que comprobar la versión de Kali Linux que se está 
 
 El script de configuración descargará la imagen kalilinux/kali-rolling si no está presente e iniciará un contenedor llamado kali-container. Deberás emplear docker exec para entrar al contenedor, ejecutar cat /etc/os-release para identificar la versión y luego generar el archivo version.txt con el VERSION_ID obtenido. El script de verificación validará si el contenedor está activo y si el archivo version.txt contiene la versión correcta.
 
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 ### Verificar la versión de Kali Linux
 
 Una auditoría de seguridad crítica requiere que identifiques rápidamente la versión de Kali Linux que se ejecuta en un contenedor Docker. Tu equipo necesita esta información para garantizar la compatibilidad con las herramientas de seguridad más recientes y mantener la integridad del sistema.
