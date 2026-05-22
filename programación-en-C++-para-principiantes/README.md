@@ -25,6 +25,8 @@ Para verificar la instalación y comprobar la versión de GCC, ejecuta:
 g++ --version
 ```
 
+<h2 align=center>********* POR COMPLETAR Y EXPLICAR *********</h2>
+
 ```bash
     1  sudo apt update
     2  sudo apt install -y build-essential
