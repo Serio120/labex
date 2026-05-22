@@ -25,6 +25,19 @@ Para verificar la instalación y comprobar la versión de GCC, ejecuta:
 g++ --version
 ```
 
+```bash
+    1  sudo apt update
+    2  sudo apt install -y build-essential
+    3  g++ --version
+    5  touch hello.cpp
+   13  g++ hello.cpp -o hello
+   14  ./hello
+   15  cd ~/project
+   16  touch syntax_errors.cpp
+   17  ls
+   18  g++ syntax_errors.cpp -o syntax_errors
+   19  ./syntax_errors
+```
 
 
 ## Resumen
