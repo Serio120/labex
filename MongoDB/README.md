@@ -1,4 +1,5 @@
 # Laboratorio llamado: MongoDB
-Empezado 07/05/2026
+Empezado 25/05/2026
 
-## Lección 1: Estructura del documento HTML
+## Lección 1: Tu Primer Laboratorio de MongoDB
+
