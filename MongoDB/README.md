@@ -14,5 +14,3 @@ Empezado 25/05/2026
 [INTRODUCCIÓN_02](lab02_Introduccion_03.pdf)
 
 [INTRODUCCIÓN_03](lab02_Introduccion_04.pdf)
-
-[INTRODUCCIÓN_04](lab02_Introduccion_05.pdf)
