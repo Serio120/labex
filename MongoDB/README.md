@@ -5,12 +5,13 @@ Empezado 25/05/2026
 
 ## Lección 2: Crear Colección en MongoDB
 
-[INICIO](lab02_Iniciar_Shell.pdf)
-
 [INTRODUCCIÓN](lab02_Introduccion.pdf)
 
-[INTRODUCCIÓN_01](lab02_Introduccion_02.pdf)
+[INICIAR SHELL](lab02_Iniciar_Shell.pdf)
 
-[INTRODUCCIÓN_02](lab02_Introduccion_03.pdf)
+[INICIAR SHELL 2](lab02_Iniciar_Shell_02.pdf)
 
-[INTRODUCCIÓN_03](lab02_Introduccion_04.pdf)
+[INICIAR SHELL 3](lab02_Iniciar_Shell_03.pdf)
+
+[INICIAR SHELL 4](lab02_Iniciar_Shell_04.pdf)
+
