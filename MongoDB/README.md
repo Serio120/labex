@@ -26,9 +26,9 @@ Empezado 25/05/2026
 
 [INSERTAR MULTIPLES DOCUMENTOS 2](lab02_Insertar_Multiples_Documentos_02.pdf)
 
-[ELIMINAR](Eliminar.pdf)
+[ELIMINAR UNA COLECCION](Eliminar_Una_Coleccion.pdf)
 
-[ELIMINAR 2](Eliminar2.pdf)
+[ELIMINAR UNA COLECCION 2](Eliminar_Una_Coleccion_02.pdf)
 
 
 ## Lección 3:
