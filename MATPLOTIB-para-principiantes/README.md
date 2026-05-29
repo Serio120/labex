@@ -114,3 +114,155 @@ En este laboratorio, has aprendido los primeros pasos esenciales para trabajar c
 
 Ahora estás preparado para pasar a laboratorios más interesantes donde aprenderás a graficar datos reales y a personalizar tus visualizaciones.
 
+# Lección 2: Gráficos de Líneas Básicos con Matplotlib
+
+Empezado 29/05/2026
+
+## Introducción
+
+Matplotlib es una biblioteca completa para crear visualizaciones estáticas, animadas e interactivas en Python. Es una de las bibliotecas de visualización de datos más populares y es esencial para cualquier científico o analista de datos que trabaje con Python.
+
+Un gráfico de líneas es uno de los tipos de gráficos más básicos y ampliamente utilizados. Muestra información como una serie de puntos de datos llamados 'marcadores' conectados por segmentos de línea recta. A menudo se utiliza para visualizar una tendencia en los datos a lo largo de intervalos de tiempo (una serie temporal), por lo tanto, la línea a menudo se dibuja cronológicamente.
+
+En este laboratorio, aprenderá a crear un gráfico de líneas simple desde cero. Cubriremos todo el proceso: preparar los datos, graficarlos, agregar etiquetas descriptivas a los ejes y, finalmente, guardar el gráfico como un archivo de imagen que puede ver directamente.
+
+## Preparar listas de datos x e y
+
+En este paso, prepararemos los datos para nuestro gráfico. Antes de poder visualizar algo, necesita datos. Para un gráfico de líneas 2D simple, necesita dos conjuntos de datos: uno para el eje x (el eje horizontal) y otro para el eje y (el eje vertical).
+
+Usaremos listas de Python para almacenar nuestros datos. Crearemos un conjunto de datos simple que represente el crecimiento de la población durante algunos años.
+
+Primero, abra el archivo main.py ubicado en el directorio ~/project desde el explorador de archivos a la izquierda. El archivo ya contiene la declaración de importación necesaria.
+
+Ahora, agregue el siguiente código a main.py para crear dos listas, x e y.
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for plotting
+x = [2018, 2019, 2020, 2021, 2022]
+y = [10, 12, 15, 18, 22]
+```
+
+Aquí, x representa los años y y representa la población en millones para cada año correspondiente. Estas dos listas servirán como las coordenadas para nuestro gráfico de líneas.
+
+## Graficar la línea usando plt.plot(x, y)
+
+En este paso, utilizaremos los datos que preparamos para crear el gráfico real. El módulo pyplot de Matplotlib, que importamos como plt, proporciona una función llamada plot() que es perfecta para esta tarea.
+
+La función plt.plot() toma dos argumentos principales: los datos para el eje x y los datos para el eje y. Luego dibujará una línea que conecta los puntos definidos por estas coordenadas.
+
+Agregue la siguiente línea a su script main.py, justo después de las listas de datos que creó en el paso anterior.
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for plotting
+x = [2018, 2019, 2020, 2021, 2022]
+y = [10, 12, 15, 18, 22]
+
+# Create the plot
+plt.plot(x, y)
+```
+Esta única línea de código le indica a Matplotlib que cree un gráfico de líneas utilizando las listas x e y como coordenadas. Sin embargo, si ejecuta el script ahora, aún no verá nada. Todavía necesitamos agregar etiquetas y guardar explícitamente el gráfico en un archivo.
+
+## Añadir etiqueta al eje x con plt.xlabel()
+
+En este paso, añadiremos una etiqueta al eje x. Un gráfico sin etiquetas a menudo carece de sentido porque el espectador no sabe qué representan los ejes. Es una parte crucial para crear visualizaciones claras e informativas.
+
+Matplotlib proporciona la función plt.xlabel() para añadir una etiqueta al eje x. Simplemente pasa la etiqueta deseada como una cadena de texto a esta función.
+
+Añadamos una etiqueta para el 'Año' a nuestro gráfico. Agrega la siguiente línea a tu script main.py después de la llamada a plt.plot().
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for plotting
+x = [2018, 2019, 2020, 2021, 2022]
+y = [10, 12, 15, 18, 22]
+
+# Create the plot
+plt.plot(x, y)
+
+# Add x-axis label
+plt.xlabel("Year")
+```
+
+Ahora, el eje horizontal de nuestro gráfico estará claramente marcado como 'Year'.
+
+## Añadir etiqueta al eje y con plt.ylabel()
+
+En este paso, añadiremos una etiqueta al eje y, completando el etiquetado básico de nuestro gráfico. Al igual que el eje x, el eje y necesita una etiqueta descriptiva para que los espectadores puedan entender los datos.
+
+La función para esto es plt.ylabel(), que funciona exactamente igual que plt.xlabel(). Pasas el texto de la etiqueta como una cadena de texto.
+
+Añadamos una etiqueta para 'Population' a nuestro gráfico. Agrega la siguiente línea a tu script main.py, justo después de la llamada a plt.xlabel().
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for plotting
+x = [2018, 2019, 2020, 2021, 2022]
+y = [10, 12, 15, 18, 22]
+
+# Create the plot
+plt.plot(x, y)
+
+# Add x-axis label
+plt.xlabel("Year")
+
+# Add y-axis label
+plt.ylabel("Population (in millions)")
+```
+
+Con ambos ejes etiquetados, nuestro gráfico es ahora mucho más comprensible.
+
+## Mostrar gráfico con plt.show()
+
+En este paso final, generaremos y visualizaremos nuestro gráfico. En un entorno de escritorio típico, podrías usar plt.show() para mostrar el gráfico en una nueva ventana. Sin embargo, en un entorno basado en web como LabEx, no podemos abrir ventanas GUI.
+
+En su lugar, guardaremos el gráfico en un archivo de imagen utilizando la función plt.savefig(). Esta función guarda la figura actual en un archivo en tu directorio de proyecto.
+
+Agrega la siguiente línea al final de tu script main.py. Esto guardará el gráfico como una imagen PNG llamada `line_plot.png`.
+
+```python
+import matplotlib.pyplot as plt
+
+# Data for plotting
+x = [2018, 2019, 2020, 2021, 2022]
+y = [10, 12, 15, 18, 22]
+
+# Create the plot
+plt.plot(x, y)
+
+# Add x-axis label
+plt.xlabel("Year")
+
+# Add y-axis label
+plt.ylabel("Population (in millions)")
+
+# Save the plot to a file
+plt.savefig("line_plot.png")
+```
+
+Ahora, abre una terminal en el WebIDE (puedes usar el icono + en el panel de terminal o el menú Terminal > New Terminal). Ejecuta tu script con el siguiente comando:
+
+```bash
+python3 main.py
+```
+
+Después de que el comando termine, verás un nuevo archivo llamado `line_plot.png` aparecer en el explorador de archivos de la izquierda. Haz doble clic en line_plot.png para abrirlo y ver tu gráfico de líneas completado.
+
+## Resumen
+
+¡Felicitaciones! Has creado y guardado con éxito tu primer gráfico de líneas utilizando Matplotlib.
+
+En este laboratorio, aprendiste el flujo de trabajo fundamental para crear un gráfico básico:
+
+- **1. Preparar Datos:** Creaste listas de Python para contener los datos de tus ejes x e y.
+- **2. Graficar Datos:** Usaste plt.plot() para generar el gráfico de líneas a partir de tus datos.
+- **3. Añadir Etiquetas:** Hiciste el gráfico informativo añadiendo etiquetas con plt.xlabel() y plt.ylabel().
+- **4. Guardar el Gráfico:** Aprendiste a usar plt.savefig() para guardar tu visualización en un archivo, lo cual es esencial en entornos sin GUI.
+
+Esto es solo el comienzo de lo que puedes hacer con Matplotlib. Ahora puedes basarte en estas habilidades para crear visualizaciones más complejas y personalizadas. ¡Sigue explorando!
+
