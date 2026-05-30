@@ -80,6 +80,33 @@ Ahora, añada una etiqueta `<h1>` dentro de la sección <body> de su archivo `in
 ```html
 <h1>Welcome to My Web Page</h1>
 ```
+## Insertar etiqueta p para texto de párrafo
+En este paso, añadirá un párrafo de texto debajo de su encabezado. La etiqueta `<p>` se utiliza para definir un párrafo en HTML. Los navegadores añaden automáticamente un espacio en blanco (un margen) antes y después de un párrafo.
+
+En el archivo `index.html`, añada una nueva línea después de su etiqueta `<h1>` e inserte la siguiente etiqueta `<p>`:
+
+```html
+<p>
+  This is a paragraph of text. It contains some introductory information about
+  this page. HTML is great for structuring content, and this paragraph is an
+  example of that. It also contains some important information.
+</p>
+```
+## Usar etiqueta strong para texto en negrita
+
+En este paso, aprenderá cómo hacer que el texto aparezca en negrita. La etiqueta `<strong>` se utiliza para indicar que el texto tiene una importancia, seriedad o urgencia fuerte. Los navegadores suelen renderizar el contenido dentro de una etiqueta `<strong>` en negrita.
+
+Modifiquemos el párrafo que añadió en el paso anterior para resaltar la frase "important information". Envuelva esta frase con las etiquetas `<strong>` y `</strong>`.
+
+Modifique la etiqueta `<p>` en su archivo `index.html` para que se vea así:
+
+```html
+<p>
+  This is a paragraph of text. It contains some introductory information about
+  this page. HTML is great for structuring content, and this paragraph is an
+  example of that. It also contains some <strong>important information</strong>.
+</p>
+```
 
 
 
