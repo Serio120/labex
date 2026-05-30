@@ -63,11 +63,11 @@ En esta sesión práctica, aprenderá a estructurar y formatear texto en una pá
 
 Trabajará con un único archivo HTML, `index.html`, y aprenderá a utilizar las siguientes etiquetas:
 
-- <h1>: Para encabezados principales.
-- <p>: Para párrafos.
-- <strong>: Para dar al texto una gran importancia, que normalmente se muestra en negrita.
-- <em>: Para enfatizar texto, que normalmente se muestra en cursiva.
-- <br>: Para insertar un salto de línea.
+- `<h1>`: Para encabezados principales.
+- `<p>`: Para párrafos.
+- `<strong>`: Para dar al texto una gran importancia, que normalmente se muestra en negrita.
+- `<em>`: Para enfatizar texto, que normalmente se muestra en cursiva.
+- `<br>`: Para insertar un salto de línea.
 
 ## Añadir etiqueta h1 para el título principal
 
