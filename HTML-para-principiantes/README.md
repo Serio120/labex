@@ -107,6 +107,46 @@ Modifique la etiqueta `<p>` en su archivo `index.html` para que se vea así:
   example of that. It also contains some <strong>important information</strong>.
 </p>
 ```
+## Aplicar etiqueta em para texto en cursiva
+
+En este paso, aprenderá cómo enfatizar texto, que normalmente se muestra en cursiva. La etiqueta `<em>` (abreviatura de "emphasis" o énfasis) se utiliza para este propósito. Indica que el texto encerrado debe ser acentuado o enfatizado.
+
+Añadamos un nuevo párrafo que incluya texto enfatizado. Añada el siguiente código debajo de su párrafo existente en `index.html`:
+
+```html
+<p>
+  You can also use other tags to format text. For example, the em tag is used
+  for <em>emphasized</em> text.
+</p>
+```
+
+## Insertar etiqueta br para saltos de línea
+
+En este paso, aprenderá cómo forzar un salto de línea dentro de un bloque de texto. La etiqueta `<br>` inserta un único salto de línea. Es una etiqueta vacía, lo que significa que no tiene etiqueta de cierre.
+
+Añadamos un salto de línea en medio del segundo párrafo que creó. Esto es útil cuando desea iniciar una nueva línea sin iniciar un nuevo párrafo.
+
+Modifique la segunda etiqueta `<p>` en su archivo index.html para incluir una etiqueta `<br>`:
+
+```html
+<p>
+  You can also use other tags to format text. <br />For example, the em tag is
+  used for <em>emphasized</em> text.
+</p>
+```
+## Resumen
+
+Ha aprendido con éxito los fundamentos del formato de texto HTML.
+
+Practicó el uso de:
+
+- `<h1>` para crear un encabezado principal.
+- `<p>` para estructurar el contenido en párrafos.
+- `<strong>` para dar al texto una gran importancia (negrita).
+- `<em>` para enfatizar texto (cursiva).
+- `<br>` para insertar saltos de línea.
+
+Estas etiquetas son los bloques de construcción esenciales para crear contenido bien estructurado y legible en cualquier página web. Siga practicando y explorando otras etiquetas HTML para mejorar sus habilidades de desarrollo web.
 
 
 
