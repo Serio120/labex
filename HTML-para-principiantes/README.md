@@ -53,6 +53,34 @@ En este laboratorio, has aprendido:
 - `<body>`: El contenedor de todo el contenido visible, como encabezados y párrafos.
 Esta estructura básica es la base sobre la cual construirás todos tus futuros proyectos web.
 
+# Lección 2: Formato de texto HTML
+
+Empezado 30/06/2026
+
+## Introducción
+
+En esta sesión práctica, aprenderá a estructurar y formatear texto en una página web utilizando etiquetas HTML fundamentales. El texto formateado correctamente es crucial para crear contenido web legible, accesible y bien organizado.
+
+Trabajará con un único archivo HTML, `index.html`, y aprenderá a utilizar las siguientes etiquetas:
+
+- <h1>: Para encabezados principales.
+- <p>: Para párrafos.
+- <strong>: Para dar al texto una gran importancia, que normalmente se muestra en negrita.
+- <em>: Para enfatizar texto, que normalmente se muestra en cursiva.
+- <br>: Para insertar un salto de línea.
+
+## Añadir etiqueta h1 para el título principal
+
+En este paso, añadirá un título principal a su página web. En HTML, los encabezados se definen con las etiquetas <h1> a <h6>. <h1> define el encabezado más importante y se utiliza típicamente para el título principal de una página.
+
+Primero, abra el archivo index.html ubicado en el directorio `~/project` utilizando el explorador de archivos en el lado izquierdo del WebIDE.
+
+Ahora, añada una etiqueta <h1> dentro de la sección <body> de su archivo `index.html`. Reemplace el comentario <!-- Content will be added here --> con la siguiente línea de código:
+
+```html
+<h1>Welcome to My Web Page</h1>
+```
+
 
 
 
