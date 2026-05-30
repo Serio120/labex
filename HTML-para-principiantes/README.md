@@ -71,9 +71,9 @@ Trabajará con un único archivo HTML, `index.html`, y aprenderá a utilizar las
 
 ## Añadir etiqueta h1 para el título principal
 
-En este paso, añadirá un título principal a su página web. En HTML, los encabezados se definen con las etiquetas <h1> a <h6>. <h1> define el encabezado más importante y se utiliza típicamente para el título principal de una página.
+En este paso, añadirá un título principal a su página web. En HTML, los encabezados se definen con las etiquetas `<h1>` a `<h6>`. `<h1>` define el encabezado más importante y se utiliza típicamente para el título principal de una página.
 
-Primero, abra el archivo index.html ubicado en el directorio `~/project` utilizando el explorador de archivos en el lado izquierdo del WebIDE.
+Primero, abra el archivo `index.html` ubicado en el directorio `~/project` utilizando el explorador de archivos en el lado izquierdo del WebIDE.
 
 Ahora, añada una etiqueta <h1> dentro de la sección <body> de su archivo `index.html`. Reemplace el comentario <!-- Content will be added here --> con la siguiente línea de código:
 
