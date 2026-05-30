@@ -75,7 +75,7 @@ En este paso, añadirá un título principal a su página web. En HTML, los enca
 
 Primero, abra el archivo `index.html` ubicado en el directorio `~/project` utilizando el explorador de archivos en el lado izquierdo del WebIDE.
 
-Ahora, añada una etiqueta <h1> dentro de la sección <body> de su archivo `index.html`. Reemplace el comentario <!-- Content will be added here --> con la siguiente línea de código:
+Ahora, añada una etiqueta `<h1>` dentro de la sección <body> de su archivo `index.html`. Reemplace el comentario <!-- Content will be added here --> con la siguiente línea de código:
 
 ```html
 <h1>Welcome to My Web Page</h1>
