@@ -57,3 +57,9 @@ A continuación, iniciaremos el servidor HTTP de Python.
 ```bash
 python3 -m http.server 8000
 ```
+Este comando usa el intérprete python3 para ejecutar el módulo http.server como un script. La opción -m le dice a Python que ejecute el módulo como un script. Especificamos el puerto 8000, lo que significa que nuestro servidor escuchará las solicitudes entrantes en este puerto.
+
+**Importante:*** Abra una nueva pestaña o ventana de terminal para continuar. Mantenga el servidor HTTP en ejecución en esta terminal y use la nueva terminal para todos los comandos Nmap posteriores en este laboratorio. Esto asegura que el servidor HTTP permanezca activo mientras realiza los escaneos.
+
+Para verificar que el servidor se está ejecutando, puede usar el comando curl en la nueva terminal. curl es una herramienta de línea de comandos que se utiliza para transferir datos desde o hacia un servidor.
+
