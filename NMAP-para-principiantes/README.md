@@ -43,3 +43,17 @@ Primero, creemos un nuevo directorio para nuestro servidor HTTP. Un directorio e
 mkdir -p /home/labex/project/http-server
 cd /home/labex/project/http-server
 ```
+El comando mkdir -p crea un directorio llamado http-server en la ruta especificada. La opción -p asegura que si algún directorio intermedio no existe, también se creará. El comando cd luego cambia nuestro directorio de trabajo actual al directorio http-server recién creado.
+
+Ahora, creemos un archivo HTML simple que nuestro servidor servirá. HTML es el lenguaje de marcado estándar para crear páginas web.
+
+```bash
+echo "<html><body><h1>Welcome to the Nmap Lab</h1></body></html>" > index.html
+```
+Este comando usa el comando echo para imprimir el código HTML en la terminal y luego redirige esa salida a un archivo llamado index.html. Entonces, hemos creado un archivo con una estructura HTML básica y un mensaje de bienvenida.
+
+A continuación, iniciaremos el servidor HTTP de Python.
+
+```bash
+python3 -m http.server 8000
+```
