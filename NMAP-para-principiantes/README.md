@@ -33,4 +33,13 @@ nmap --version
 ```
 Esta salida confirma que Nmap está instalado en su sistema. También proporciona información sobre la versión de Nmap y las opciones de compilación utilizadas, lo cual puede ser útil para solucionar problemas o entender las capacidades de su instalación de Nmap.
 
+### Configuración de un Servicio Local para Escaneo
 
+Antes de comenzar a usar Nmap para escanear, es esencial tener un servicio objetivo en ejecución. De esta manera, podemos probar las capacidades de escaneo de Nmap de manera efectiva. En este paso, configuraremos un servidor HTTP simple utilizando el módulo http.server integrado de Python. El módulo http.server de Python es una herramienta conveniente que nos permite iniciar rápidamente un servidor HTTP sin la necesidad de configuraciones complejas.
+
+Primero, creemos un nuevo directorio para nuestro servidor HTTP. Un directorio es como una carpeta en su computadora donde podemos almacenar todos los archivos relacionados con nuestro servidor.
+
+```bash
+mkdir -p /home/labex/project/http-server
+cd /home/labex/project/http-server
+```
