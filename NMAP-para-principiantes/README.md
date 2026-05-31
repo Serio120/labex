@@ -63,3 +63,36 @@ Este comando usa el intérprete python3 para ejecutar el módulo http.server com
 
 Para verificar que el servidor se está ejecutando, puede usar el comando curl en la nueva terminal. curl es una herramienta de línea de comandos que se utiliza para transferir datos desde o hacia un servidor.
 
+```bash
+curl http://localhost:8000
+```
+Cuando ejecuta este comando, curl envía una solicitud al servidor HTTP que se ejecuta en localhost (que se refiere a su propia computadora) en el puerto 8000. Si el servidor se está ejecutando correctamente, debería ver el contenido HTML que creamos anteriormente.
+
+```bash
+127.0.0.1 - - [13/Sep/2024 15:24:21] "GET / HTTP/1.1" 200 -
+<html>
+  <body>
+    <h1>Welcome to the Nmap Lab</h1>
+  </body>
+</html>
+```
+Esta salida muestra que el servidor recibió la solicitud, la procesó con éxito (indicado por el código de estado 200) y devolvió el contenido HTML del archivo index.html.
+
+### Escaneo básico con Nmap
+
+Ahora que hemos instalado Nmap con éxito y configurado un servicio local, es hora de comenzar a realizar algunos escaneos básicos. Esto le ayudará a entender cómo funciona Nmap y qué tipo de información puede proporcionar.
+
+Primero, realizaremos un simple escaneo TCP connect en nuestro servidor HTTP local. Un escaneo TCP connect es un tipo fundamental de escaneo en Nmap. Intenta establecer una conexión TCP completa al puerto de destino. Si la conexión es exitosa, significa que el puerto está abierto.
+
+Aquí está el comando para realizar este escaneo:
+
+```bash
+nmap -sT -p 8000 localhost
+```
+
+Desglosemos este comando:
+
+-sT es una opción que especifica un escaneo TCP connect. Esto le dice a Nmap que use el método TCP connect para verificar el estado de los puertos.
+-p 8000 indica que queremos que Nmap escanee solo el puerto 8000. Puede cambiar este número para escanear otros puertos si es necesario.
+localhost es el objetivo de nuestro escaneo. Se refiere a la máquina local donde se está ejecutando el servicio.
+Después de ejecutar este comando, debería ver una salida similar a esta:
