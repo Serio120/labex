@@ -1,7 +1,7 @@
-# Laboratorio llamado: HTML Para Principiantes
+# Laboratorio llamado: NMAP Para Principiantes
 Empezado 31/05/2026
 
-## Lección 1: 
+## Lección 1: Aprende la Instalación y el Uso Básico de Nmap
 
 ### Introducción
 En este laboratorio, aprenderá sobre la instalación y el uso básico de Nmap, una poderosa herramienta de escaneo de redes y auditoría de seguridad. Nmap, también conocido como Network Mapper, es una utilidad de código abierto ampliamente utilizada por administradores de sistemas y expertos en seguridad para encontrar hosts, servicios y vulnerabilidades en una red.
