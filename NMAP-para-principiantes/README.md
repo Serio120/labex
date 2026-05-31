@@ -96,3 +96,45 @@ Desglosemos este comando:
 -p 8000 indica que queremos que Nmap escanee solo el puerto 8000. Puede cambiar este número para escanear otros puertos si es necesario.
 localhost es el objetivo de nuestro escaneo. Se refiere a la máquina local donde se está ejecutando el servicio.
 Después de ejecutar este comando, debería ver una salida similar a esta:
+
+```bash
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-09-13 15:27 CST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00011s latency).
+Other addresses for localhost (not scanned): ::1
+
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds
+```
+Esta salida muestra que el puerto 8000 está abierto y está ejecutando un servicio HTTP. La columna STATE indica el estado del puerto, y en este caso, es open. La columna SERVICE da una idea de qué tipo de servicio podría estar ejecutándose en ese puerto.
+
+Ahora, realicemos un escaneo más detallado. A veces, solo saber que un puerto está abierto no es suficiente. Podríamos querer saber más sobre el servicio que se está ejecutando en ese puerto, como su versión.
+
+Aquí está el comando para un escaneo más detallado:
+
+```bash
+nmap -sV -p 8000 localhost
+```
+La opción -sV se utiliza para decirle a Nmap que explore los puertos abiertos para determinar la información del servicio/versión. Esto significa que Nmap intentará averiguar qué software específico y versión se está ejecutando en el puerto abierto.
+
+Después de ejecutar este comando, debería ver una salida similar a esta:
+
+```bash
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-09-13 15:27 CST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00011s latency).
+Other addresses for localhost (not scanned): ::1
+
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.10.12)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.48 seconds
+```
+Esta salida proporciona información más detallada sobre el servicio que se está ejecutando en el puerto 8000. Nos dice que es un SimpleHTTPServer de Python e incluso nos da el número de versión.
+
+Puede ver las solicitudes de Nmap en los registros de la terminal donde inició el servidor HTTP de Python. Esto puede ser útil para la depuración o un análisis más profundo.
+
+
