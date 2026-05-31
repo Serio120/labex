@@ -22,5 +22,15 @@ Ahora que está en el directorio correcto, es hora de actualizar la lista de paq
 ```bash
 sudo apt update
 sudo apt install nmap -y
-
 ```
+
+El comando sudo se utiliza para ejecutar comandos con privilegios administrativos. Dado que la instalación de software requiere acceso administrativo, debe utilizar sudo. La opción -y se utiliza con el comando apt install. Responde automáticamente "sí" a cualquier solicitud durante el proceso de instalación, por lo que no tiene que confirmar manualmente cada paso.
+
+Después de que la instalación se complete, es importante verificar que Nmap se haya instalado correctamente. Puede hacer esto comprobando su versión. La opción --version del comando nmap muestra la información de la versión de Nmap.
+
+```bash
+nmap --version
+```
+Esta salida confirma que Nmap está instalado en su sistema. También proporciona información sobre la versión de Nmap y las opciones de compilación utilizadas, lo cual puede ser útil para solucionar problemas o entender las capacidades de su instalación de Nmap.
+
+
