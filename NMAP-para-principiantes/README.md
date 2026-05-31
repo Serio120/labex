@@ -12,3 +12,15 @@ Este laboratorio lo guiará a través del proceso de instalación de Nmap, la co
 En este paso, lo guiaremos a través del proceso de instalación de Nmap en su sistema Ubuntu Linux. Nmap es una poderosa herramienta de escaneo de redes que se utiliza ampliamente en ciberseguridad para tareas como la detección de redes y la auditoría de seguridad. Está disponible en los repositorios predeterminados de Ubuntu, lo que significa que el proceso de instalación es bastante sencillo.
 
 Primero, debe abrir su terminal. La terminal es una interfaz basada en texto que le permite interactuar con su sistema ingresando comandos. Por defecto, debe estar en el directorio /home/labex/project. Si no está en este directorio, puede navegar hasta allí utilizando el siguiente comando. Este comando cambia su directorio de trabajo actual a /home/labex/project.
+
+```bash
+cd /home/labex/project
+```
+
+Ahora que está en el directorio correcto, es hora de actualizar la lista de paquetes e instalar Nmap. La lista de paquetes contiene información sobre todo el software disponible en los repositorios de Ubuntu. Actualizarla asegura que está obteniendo la última versión de Nmap.
+
+```bash
+sudo apt update
+sudo apt install nmap -y
+
+```
