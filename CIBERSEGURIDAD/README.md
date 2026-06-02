@@ -3,7 +3,7 @@ Empezado 18/05/2026
 
 ## Lección 1: Kali Linux para Principiantes
 
-<h2 align=center>********* POR REPASAR Y COMPLETAR ********</h2>
+<h2 align=center>******** POR REPASAR Y COMPLETAR ********</h2>
 
 ```bash
     2  pwd
