@@ -165,6 +165,7 @@ git branch -m master main
 ```bash
 git push -u origin main
 ```
+---
 
 Si tu rama se llama `master`: (Esto nunca lo has utilizado)
 
