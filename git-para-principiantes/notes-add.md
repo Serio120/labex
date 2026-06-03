@@ -126,6 +126,69 @@ git config --unset user.email
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```
 
+Vincular el repositorio local con un repositorio **remoto** y hacer el push inicial.
+
+Flujo **completo y claro**, sin rodeos:
+
+---
+
+### 🚀 1. Crea el repositorio vacío en GitHub
+En GitHub → **New Repository**  
+No añadas README, .gitignore ni licencia (para evitar conflictos).
+
+---
+
+### 🔗 2. Conecta tu repo local con GitHub
+En tu terminal, dentro de tu proyecto:
+
+```bash
+git remote add origin https://github.com/TU_USUARIO/NOMBRE_REPO.git
+```
+
+Puedes comprobar que quedó bien:
+
+```bash
+git remote -v
+```
+
+---
+
+### 📤 3. Sube tu rama principal
+Si tu rama se llama `main`:
+
+```bash
+git push -u origin main
+```
+
+Si tu rama se llama `master`:
+
+```bash
+git push -u origin master
+```
+
+---
+
+### 🧩 Si GitHub te pide autenticación
+GitHub ya no acepta contraseña. Necesitas un **Personal Access Token**.
+
+Lo generas aquí:  
+[https://github.com/settings/tokens](https://github.com/settings/tokens)
+
+Y cuando Git te pida contraseña, pegas el token.
+
+---
+
+### 🎉 Listo
+Tu repositorio local ya está publicado en GitHub.  
+A partir de ahora solo usas:
+
+```bash
+git add .
+git commit -m "mensaje"
+git push
+```
+
+
 ```bash
 git branch -m master main
 ```
