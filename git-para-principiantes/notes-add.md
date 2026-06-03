@@ -186,7 +186,7 @@ Y cuando Git te pida contraseña, pegas el token.
 ---
 ### 🧩 La forma que he utilizado yo hoy
 
-## Verificar con código. Abres la página que se mostro en normal con tu ventana en sesión privada (copiando la url)
+## Verificar con código. Abres la página que se mostro en normal con tu ventana en sesión privada (copiando la url) y metes el código que te da github
 
 ---
 
