@@ -156,11 +156,17 @@ git remote -v
 ### 📤 3. Sube tu rama principal
 Si tu rama se llama `main`:
 
+#### Antes:
+
+```bash
+git branch -m master main
+```
+
 ```bash
 git push -u origin main
 ```
 
-Si tu rama se llama `master`:
+Si tu rama se llama `master`: (Esto nunca lo has utilizado)
 
 ```bash
 git push -u origin master
@@ -188,7 +194,3 @@ git commit -m "mensaje"
 git push
 ```
 
-
-```bash
-git branch -m master main
-```
