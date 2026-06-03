@@ -156,7 +156,7 @@ git remote -v
 ### 📤 3. Sube tu rama principal
 Si tu rama se llama `main`:
 
-#### Antes cambiar el nombe de la rema principal de git local:
+#### Antes cambiar el nombre de la rama principal de git local:
 
 ```bash
 git branch -m master main
@@ -182,6 +182,11 @@ Lo generas aquí:
 [https://github.com/settings/tokens](https://github.com/settings/tokens)
 
 Y cuando Git te pida contraseña, pegas el token.
+
+---
+### 🧩 La forma que he utilizado yo hoy
+
+## Verificar con código. Abres la página que se mostro en normal con tu ventana en sesión privada (copiando la url)
 
 ---
 
