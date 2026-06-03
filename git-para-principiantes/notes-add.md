@@ -59,8 +59,13 @@ O para un commit específico:
 ```bash
 git show <commit-id>
 ```
+```diff
+-------------------------------------------------------------------------------------
+```
 ## Para **borrar el usuario y el email global en Git**, solo necesitas eliminar esas claves de la configuración global.
-
+```diff
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+```
 ---
 
 ### 🧹 **1. Borrar usuario y email global**
@@ -113,4 +118,8 @@ git config --unset user.email
 
 ---
 
-Si quieres, te explico cómo dejar Git sin ninguna identidad o cómo configurar una nueva.
+## GGG
+
+```bash
+git branch -m master main
+```
