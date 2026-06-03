@@ -156,7 +156,7 @@ git remote -v
 ### 📤 3. Sube tu rama principal
 Si tu rama se llama `main`:
 
-#### Antes:
+#### Antes cambiar el nombe de la rema principal de git local:
 
 ```bash
 git branch -m master main
