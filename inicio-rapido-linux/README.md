@@ -166,15 +166,12 @@ Recuerda usar estos comandos con cuidado, especialmente rm, ya que elimina perma
 
 A medida que continúes tu viaje en Linux, explora las páginas del manual (por ejemplo, `man ls`) para aprender más sobre cada comando y sus opciones. 
 
+<h2 align=center>******** POR COMPLETAR LECCIÓN 2 Y 3********</h2>
 ---
 
 Empezado 05/07/2026
 
 ## Lección 4: Archivos y Directorios
-
-
-agrgagwHhHHWRHRwrhwwwrWWw---------------------------------------------------------------------------------------------
-
 
 ## Copiar Archivos y Directorios
 
