@@ -166,6 +166,71 @@ Recuerda usar estos comandos con cuidado, especialmente rm, ya que elimina perma
 
 A medida que continúes tu viaje en Linux, explora las páginas del manual (por ejemplo, `man ls`) para aprender más sobre cada comando y sus opciones. 
 
+---
+
+Empezado 05/07/2026
+
+## Lección 4: Archivos y Directorios
+
+
+agrgagwHhHHWRHRwrhwwwrWWw---------------------------------------------------------------------------------------------
+
+
+## Copiar Archivos y Directorios
+
+Este paso se centra en el uso del comando `cp` para realizar copias de seguridad de datos. Copiará un archivo de configuración y un directorio a su Escritorio (Desktop).
+
+Terminología Clave:
+
+`~`: Representa su directorio personal (home directory).
+
+`~/.zshrc`: Un archivo de configuración oculto en su directorio personal.
+
+`~/Code`: Un directorio que contiene código fuente.
+Su objetivo es duplicar estos elementos en `~/Desktop`.
+
+### Tareas
+
+> Copie el archivo `~/.zshrc` a `~/Desktop/zshrc-copy`.
+> Copie el directorio completo `~/Code` a `~/Desktop`.
+
+### Requisitos
+
+Utilice el comando `cp` para completar ambas tareas.
+La opción `-r` es esencial al copiar directorios de forma recursiva para asegurar que se incluya todo su contenido.
+
+### Ejemplo
+
+Después de ejecutar estas tareas con éxito, debería observar un nuevo archivo llamado `zshrc-copy` y un directorio llamado `Code` residiendo en su Escritorio. Puede verificar fácilmente la operación de copia exitosa listando el contenido de su Escritorio usando el siguiente comando:
+
+```bash
+ls -l ~/Desktop
+```
+
+Salida de Ejemplo:
+
+```bash
+drwxr-xr-x 2 labex labex    6 Jan 19 09:25 Code
+-rwxr-xr-x 1 labex labex  636 Jan 15 10:47 code.desktop
+-rwxr-xr-x 1 labex labex  749 Jan 15 10:47 gedit.desktop
+-rwxr-xr-x 1 labex labex 5106 Jan 15 10:47 gvim.desktop
+-rwxr-xr-x 1 labex labex 8499 Jan 15 10:47 xfce4-terminal.desktop
+-rw-r--r-- 1 labex labex 4752 Jan 19 09:25 zshrc-copy
+```
+
+### History
+
+```bash
+labex:~/ $ history
+    1  cd ~
+    2  ls -la
+    3  cp ~/.zshrc ~/Desktop/zshrc-copy
+    4  cp -r ~/Code ~/Desktop/
+    5  ls -l ~/Desktop
+    6  ls -la ~/Desktop
+labex:~/ $ 
+```
+
 
 
 
