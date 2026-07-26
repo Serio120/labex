@@ -1,7 +1,3 @@
-Perfecto Mariano, aquí tienes tu **README.md ampliado con las 4 partes adicionales** que pediste — *badges estilo GitHub, sección de preguntas frecuentes, ejemplos avanzados de importación y explicación de paquetes (`__init__.py`)* — sin romper la esencia de laboratorio ni el estilo educativo del ejercicio.
-
----
-
 # 📘 Crear y Utilizar Módulos en Python
 
 Este proyecto demuestra cómo crear, organizar e importar módulos en Python utilizando el entorno WebIDE de LabEx. El objetivo es aprender a estructurar funciones y constantes en archivos separados para mejorar la reutilización y el mantenimiento del código.
@@ -10,12 +6,8 @@ Este proyecto demuestra cómo crear, organizar e importar módulos en Python uti
 
 ## 🏷️ Badges del Proyecto
 
-> Estos badges son decorativos y dan un toque profesional estilo GitHub.
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg) ![Status](https://img.shields.io/badge/Status-Learning-orange.svg) ![LabEx](https://img.shields.io/badge/LabEx-Environment-green.svg) ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-`https://img.shields.io/badge/Python-3.x-blue.svg`
-`https://img.shields.io/badge/Status-Learning-orange.svg`
-`https://img.shields.io/badge/LabEx-Environment-green.svg`
-`https://img.shields.io/badge/License-MIT-lightgrey.svg`
 
 ---
 
@@ -215,11 +207,10 @@ Puedes usarlo, modificarlo y compartirlo libremente.
 
 ---
 
-Si quieres, puedo añadir:
+For the adapter
 
 ✨ Una sección de *Contribución*  
 ✨ Ejemplos más avanzados con clases  
 ✨ Un diagrama visual de la estructura del proyecto  
 ✨ Un apartado “Troubleshooting” con errores comunes  
 
-Solo dime y lo hacemos.
