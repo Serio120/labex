@@ -1,5 +1,4 @@
-Qué te piden?
-Encontrar la forma correcta de formatear un valor numérico a dos decimales en Python, específicamente usando f-strings (cadenas formateadas).
+## Encontrar la forma correcta de formatear un valor numérico a dos decimales en Python, específicamente usando f-strings (cadenas formateadas).
 
 Analicemos cada opción:
 
@@ -28,10 +27,12 @@ print(f"{fuel_needed:.2f}")  # Salida: 123.46
 
 **Respuesta correcta: B) Use an f-string field such as {fuel_needed:.2f}.**
 
-Explicación breve:
+**Explicación breve:**
+
 El formato :.2f dentro de un f-string indica:
 
-: → comienza el especificador de formato
-.2 → precisión de 2 decimales
-f → formato de punto flotante (decimal)
+- : → comienza el especificador de formato
+- .2 → precisión de 2 decimales
+- f → formato de punto flotante (decimal)
+
 Esto redondea el número al valor más cercano con dos decimales, que es exactamente lo que pide el enunciado.
