@@ -2,6 +2,8 @@
 #### Fri, August 28, 2026
 
 #### Completed
-## High Traffic Web Cluster
+![Challenge](../../assets/Challenge_636747.png)
 
-![image](.labex/assets/Challenge_636747.png)
+<!--Ruta relativa (recomendada): ![Challenge](../../assets/Challenge_636747.png)-->
+
+<!--Ruta absoluta dentro del repo: ![Challenge](/assets/Challenge_636747.png)-->
