@@ -4,4 +4,4 @@
 #### Completed
 ## High Traffic Web Cluster
 
-[image](/labex/assets/Challenge_636747.png)
+![image](.labex/assets/Challenge_636747.png)
