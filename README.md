@@ -1,4 +1,4 @@
-# 🧪 LabEx — Technical Labs & Learning Resources
+# 🧪 LabEx — Technical Labs & Learning Resources.
 
 > A hands-on learning repository for **programming, Linux, DevOps, databases, cybersecurity, and data science**, built around practical labs, exercises, notes, and real-world learning resources.
 
