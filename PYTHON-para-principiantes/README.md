@@ -1,65 +1,58 @@
 # Python para Principiantes
 
+Curso práctico de introducción a Python, pensado para aprender sus fundamentos paso a paso mediante explicaciones y ejemplos. Recorre desde los conceptos básicos del lenguaje hasta las estructuras de datos, el control de flujo y la programación orientada a objetos.
+
 ## Programa
 
-📚 Utiliza VS Code para el Desarrollo de Python
+### 🧰 Entorno y primeros pasos
 
-Iniciar Laboratorio
+- Utiliza VS Code para el desarrollo de Python
+- Iniciar laboratorio
+- Escribir un programa simple en Python
 
-Escribir un Programa Simple en Python
+### 🔤 Fundamentos del lenguaje
 
-📚 Codificación de Caracteres en Python
+- [Codificación de caracteres en Python](./codificacion-de-caracteres-en-python.md)
+- Comprender los identificadores en Python
+- Palabras clave e identificadores integrados en Python
+- Añadir comentarios en Python
+- Manejar entrada y salida en Python
+- Importar módulos y paquetes en Python
+- Estilo de código PEP 8 en Python
 
-Comprender los Identificadores en Python
+### 🧮 Tipos de datos y estructuras
 
-Palabras Clave e Identificadores Integrados en Python
+- Tipos de números y operaciones en Python
+- Trabajar con cadenas (*strings*) en Python
+- Uso de tuplas en Python
+- Manipular listas en Python
+- Trabajar con conjuntos (*sets*) en Python
+- Administrar diccionarios en Python
 
-Añadir Comentarios en Python
+### 🔀 Operadores y control de flujo
 
-Manejar Entrada y Salida en Python
+- Comprender los operadores en Python
+- Precedencia de operadores en Python
+- Sentencias condicionales en Python
+- Comprender los bucles (*loops*) en Python
 
-Importar Módulos y Paquetes en Python
+### ⚙️ Funciones y programación avanzada
 
-Estilo de Código PEP 8 en Python
+- Definir y usar funciones en Python
+- Parámetros de función en Python
+- Valores de retorno y ámbito de las funciones en Python
+- Funciones lambda en Python
+- Documentación de funciones Python con *docstrings*
+- Errores y excepciones en Python
+- Manejo de excepciones con `try` y `except`
 
-Tipos de Números y Operaciones en Python
+### 🧱 Programación orientada a objetos
 
-Trabajar con Cadenas (*Strings*) en Python
+- Definir clases y objetos en Python
+- Comprender las características de las clases en Python
+- Explorar los métodos especiales en clases de Python
+- Comprender los decoradores en Python
 
-Uso de Tuplas en Python
+---
 
-Manipular Listas en Python
-
-Trabajar con Conjuntos (Sets) en Python
-
-Administrar Diccionarios en Python
-
-Comprender los Operadores en Python
-
-Precedencia de Operadores en Python
-
-Sentencias Condicionales en Python
-
-Comprender los Bucles (Loops) en Python
-
-Definir y Usar Funciones en Python
-
-Parámetros de Función en Python
-
-Valores de Retorno y Ámbito de las Funciones en Python
-
-Funciones Lambda en Python
-
-Documentación de Funciones Python con Docstrings
-
-Errores y Excepciones en Python
-
-Manejo de Excepciones con try except en Python
-
-Definir Clases y Objetos en Python
-
-Comprender las Características de las Clases en Python
-
-Explore los Métodos Especiales en Clases de Python
-
-Comprender los Decoradores en Python
+> **Nota:** El programa recoge el itinerario previsto. Los temas que todavía no tienen una lección publicada se irán enlazando a medida que se incorporen sus archivos.
