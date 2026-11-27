@@ -60,5 +60,108 @@ Sal del intérprete de Python escribiendo `exit()` y presionando Enter.
 ```python
 exit()
 ```
+## Usar ord() y chr() para Convertir Caracteres e Enteros
 
+En este paso, aprenderemos a usar las funciones integradas de Python `ord()` y `chr()` para convertir entre caracteres y sus representaciones enteras correspondientes en Unicode.
+
+En Python 3, las cadenas (strings) se representan utilizando Unicode. La función ord() toma un solo carácter como entrada y devuelve su valor entero decimal Unicode correspondiente.
+
+Creemos un nuevo archivo Python para experimentar con estas funciones. En la WebIDE, haz clic derecho en el directorio project en el explorador de archivos y selecciona` New File`. Nombra el archivo `char_conversion.py`.
+
+Abre char_conversion.py en el editor y añade el siguiente código:
+
+```python
+# Use ord() to get the Unicode decimal value of characters
+char1 = 'a'
+char2 = 'é'
+char3 = ';'
+
+print(f"The Unicode decimal value of '{char1}' is: {ord(char1)}")
+print(f"The Unicode decimal value of '{char2}' is: {ord(char2)}")
+print(f"The Unicode decimal value of '{char3}' is: {ord(char3)}")
+```
+
+Guarda el archivo presionando Ctrl + S (o Cmd + S en macOS).
+
+Ahora, abre la terminal integrada nuevamente (si no está abierta) y ejecuta el script usando el comando python:
+
+```python
+python char_conversion.py
+```
+
+Deberías ver una salida similar a esta:
+
+```python
+The Unicode decimal value of 'a' is: 97
+The Unicode decimal value of 'é' is: 233
+The Unicode decimal value of ';' is: 59
+```
+
+La función chr() realiza la operación inversa. Toma un entero decimal (o un entero hexadecimal) que representa un punto de código Unicode y devuelve el carácter correspondiente.
+
+Agreguemos más código a char_conversion.py para usar la función chr(). Añade las siguientes líneas al código existente:
+
+```python
+# Use chr() to get the character from a Unicode decimal value
+int1 = 8364
+int2 = 8482
+
+print(f"The character for Unicode decimal value {int1} is: {chr(int1)}")
+print(f"The character for Unicode decimal value {int2} is: {chr(int2)}")
+
+# You can also use hexadecimal values with chr()
+hex_int = 0x00A9 # Hexadecimal for the character '©'
+print(f"The character for Unicode hexadecimal value {hex(hex_int)} is: {chr(hex_int)}")
+```
+
+Guarda el archivo nuevamente.
+
+Ejecuta el script desde la terminal:
+
+```python
+python char_conversion.py
+```
+
+La salida ahora debería incluir los resultados de la función `chr()`:
+
+```python
+The Unicode decimal value of 'a' is: 97
+The Unicode decimal value of 'é' is: 233
+The Unicode decimal value of ';' is: 59
+The character for Unicode decimal value 8364 is: €
+The character for Unicode decimal value 8482 is: ™
+The character for Unicode hexadecimal value 0xa9 is: ©
+```
+
+Quizás te preguntes cómo encontrar la representación hexadecimal Unicode de un carácter. Puedes usar la función ord() para obtener el valor decimal y luego la función integrada hex() para convertir el valor decimal a su representación de cadena hexadecimal.
+
+Añade el siguiente código a char_conversion.py:
+
+```python
+# Convert a character to its hexadecimal Unicode representation
+char_copyright = '©'
+decimal_copyright = ord(char_copyright)
+hexadecimal_copyright = hex(decimal_copyright)
+
+print(f"The hexadecimal Unicode value of '{char_copyright}' is: {hexadecimal_copyright}")
+```
+
+Guarda el archivo y ejecútalo una última vez:
+
+```python
+python char_conversion.py
+```
+La salida final incluirá el valor hexadecimal para el carácter '©':
+
+```python
+The Unicode decimal value of 'a' is: 97
+The Unicode decimal value of 'é' is: 233
+The Unicode decimal value of ';' is: 59
+The character for Unicode decimal value 8364 is: €
+The character for Unicode decimal value 8482 is: ™
+The character for Unicode hexadecimal value 0xa9 is: ©
+The hexadecimal Unicode value of '©' is: 0xa9
+```
+
+Esto demuestra cómo `ord()` `chr()` y `hex()` se pueden usar juntas para trabajar con codificaciones de caracteres en Python.
 > **Nota del maquetador:** quedan cuatro temas pendientes de esta lección.
