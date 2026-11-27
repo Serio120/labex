@@ -164,4 +164,5 @@ The hexadecimal Unicode value of '©' is: 0xa9
 ```
 
 Esto demuestra cómo `ord()` `chr()` y `hex()` se pueden usar juntas para trabajar con codificaciones de caracteres en Python.
-> **Nota del maquetador:** quedan cuatro temas pendientes de esta lección.
+
+> **Nota del maquetador:** quedan tres temas pendientes de esta lección.
